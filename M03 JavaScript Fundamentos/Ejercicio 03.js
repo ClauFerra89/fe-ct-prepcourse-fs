@@ -67,13 +67,27 @@ function esPar(num) {
    // Retorna true si "num" es par.
    // De lo contrario, retorna false.
    // Tu código:
+   if (num % 2 === 0) {
+      return (true);
+   } else {
+      return (false);
+   }
 }
+
+esPar(6)
 
 function esImpar(num) {
    // Retorna true si "num" es impar.
    // De lo contrario, retorna false.
    // Tu código:
+   if (num % 2 !== 0) {
+      return (true);
+   } else {
+      return (false);
+   }
 }
+
+esImpar(37)
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
